@@ -40,6 +40,12 @@ export default function Home() {
         <p className="mt-10 text-sm text-white text-opacity-70 pl-0 xl:pl-[120px]">
           Beta 1.0.0
         </p>
+        <p className="mt-4 text-sm text-white text-opacity-70 pl-0 xl:pl-[120px]">
+          Pobthorn Pimpa (Consultant)
+        </p>
+        <p className="mt-2 text-sm text-white text-opacity-70 pl-0 xl:pl-[120px]">
+          Theerapat Loinok (Developer-TFN)
+        </p>
       </footer>
     </div>
   );
