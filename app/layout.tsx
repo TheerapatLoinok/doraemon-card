@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     {
       rel: "icon",
       type: "image/png",
-      url: "/favicon/favicon-32x32.png",
+      url: "https://theerapatloinok.github.io/doraemon-card/favicon/favicon-32x32.png",
     },
   ],
 };

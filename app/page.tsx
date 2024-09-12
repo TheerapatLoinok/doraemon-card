@@ -26,10 +26,10 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className=" w-full h-[300px] md:w-[400px]  lg:w-[500px]  relative">
+        <div className=" w-full h-[400px] md:w-[400px]  lg:w-[500px]  relative">
           <Image
             className="pr-5 md:pr-0"
-            src="/images/doraemon-logo.png"
+            src="https://theerapatloinok.github.io/doraemon-card/images/doraemon-logo.png"
             alt="Doraemon game card"
             fill
             quality={80}

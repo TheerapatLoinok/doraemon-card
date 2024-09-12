@@ -86,7 +86,7 @@ function page() {
     Swal.fire({
       title: `${card.card} ${card.type}`,
       text: rules?.rules.filter((r) => r.card === card.card)[0]?.action,
-      imageUrl: `/images/${card.type}/${card.card}.png`,
+      imageUrl: `https://theerapatloinok.github.io/doraemon-card/images/${card.type}/${card.card}.png`,
       imageWidth: 200,
       imageHeight: 300,
       imageAlt: "Custom image",
@@ -150,7 +150,7 @@ function page() {
                         <div className="relative w-[100px] h-[150px]">
                           <Image
                             alt="Card image"
-                            src={`/images/${card.type}/${card.card}.png`}
+                            src={`https://theerapatloinok.github.io/doraemon-card/images/${card.type}/${card.card}.png`}
                             fill
                             priority
                           />
@@ -173,7 +173,7 @@ function page() {
             <div className="bg-[#6345ED] bg-opacity-60 rounded-lg w-full h-full relative">
               <Image
                 className="object-cover"
-                src="/images/card-background-2.png"
+                src="https://theerapatloinok.github.io/doraemon-card/images/card-background-2.png"
                 alt="Image back card"
                 fill
                 quality={80}
